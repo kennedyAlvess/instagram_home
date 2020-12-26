@@ -28,11 +28,22 @@ body{
 .cell-instagram{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center ;
     width: 50%;
+
 }
-.cell-instagram img{
-    height: 50ren;
+
+.imagem1{
+    height: 50%;
+    margin-right: 260%;
+    padding-right: 50px;
+    
+
+}
+.imagem2{
+    margin-left: -450%;
+    height: 50%;
+    padding-right: 50%;
 }
 
 .login-instagram{
@@ -50,7 +61,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
+    width: 75%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
@@ -70,6 +81,8 @@ body{
     justify-content: center;
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 10px;
+    
 }
 .profile-photo img{
     height: 6rem;
@@ -101,7 +114,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 115%;
     padding: 1.3rem 0;
 }
 
